@@ -15,6 +15,8 @@ Using provided data, we first identified those Points of Interest that had incor
 
 ### Project building
 We used **python** in **Jupyter Notebook** to work with the provided data and build the program for error detection.
+#### Requirements
+Python 3.6 or higher (recommended: Python 3.10+)
 #### Packages and libraries
 * **Pandas:** for data manipulation and analysis, reading CSV files, handling DataFrames, filtering, merging, and transforming tabular data.
 * **GeoPandas:** for geospatial data manipulation and analysis, reading GeoJSON files, handling geospatial DataFrames, spatial joins, and creating geometries.
@@ -22,6 +24,8 @@ We used **python** in **Jupyter Notebook** to work with the provided data and bu
 * **Requests:** HTTP requests library used for sending HTTP requests to external APIs (such as the HERE API) and handling responses.
 * **NumPy:** for numerical computing, handling missing values, numerical operations, and array manipulations.
 * **Random:** used to generate random numbers, assigning random IDs for data correction and simulation.
+
+You can install this libraries via `pip install`
 
 ### Challenges
 * The use of the HERE platform was not intuitive. Specially considering that the existence of a deprecated HERE Developer platform generated confusion within the team when trying to integrate the API.
